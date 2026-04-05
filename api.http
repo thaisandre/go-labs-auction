@@ -1,0 +1,23 @@
+@port = 8080
+
+### change auction_id here:
+@auction_id = bc494d00-084c-4e8f-b7cf-a3ecf7a5e886 
+
+### create an auction
+POST http://localhost:{{port}}/auction
+Content-Type: application/json
+
+{
+  "product_name": "product 1",
+  "category": "category-a",
+  "description": "some description",
+  "condition": 1
+}
+
+### list active auctions (status=0)
+GET http://localhost:{{port}}/auction?status=0
+Content-Type: application/json
+
+### find auction by id
+GET http://localhost:{{port}}/auction/{{auction_id}}
+Content-Type: application/json
