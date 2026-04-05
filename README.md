@@ -7,7 +7,7 @@ Desafio 3 do Labs Go do curso Pós Go Expert - Full Cycle
 
 ### descrição
 
-Sistema de leilões em Go com fechamento automático utilizando Goroutines. Quando um leilão é criado, uma goroutine é disparada em background para monitorar o tempo e fechar o leilão automaticamente após a duração configurada.
+Sistema de leilões em Go com fechamento automático utilizando Goroutines. Quando um leilão é criado, uma goroutine é disparada em background para monitorar o tempo e fechar o leilão automaticamente após a duração configurada. Base repo: https://github.com/devfullcycle/labs-auction-goexpert
 
 ### implementação
 
